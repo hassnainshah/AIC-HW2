@@ -1,0 +1,59 @@
+#navbar{
+    border: 2px solid black;
+    display: flex;
+    padding: 2 10%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar #left{
+    font-size: 30px;
+}
+
+#navbar #left .menu{
+    width: 50px;
+}
+
+#navbar #left .icon{
+    height: 50px;
+    width: 120px;
+}
+
+#navbar #middle{
+    align-items: center;
+    width: 600px;
+    font-size: 30px;
+    margin-top: 3px;
+}
+
+
+#navbar #middle input{
+    align-items: center;
+    border: 0.5px solid rgb(38, 36, 36);
+    border-radius: 20px;
+    width: 400px;
+    height: 30px;
+    background: transparent;
+}
+#navbar #middle img{
+    align-items: center;
+    width: 20px;
+    height: 30px;
+}
+
+
+#navbar #right{
+    margin-top: 12px;
+}
+
+#navbar #right img{
+    padding: 0,5px,0,5px;
+    width: 35px;
+    height: 30px;
+}
+
+
+.img{
+    width: 10rem;
+    height: 10rem;
+}
